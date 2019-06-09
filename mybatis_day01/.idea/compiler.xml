@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_day01_2" />
+        <module name="mybatis_day01_2 (1)" />
+        <module name="mybatis_day01_3" />
+        <module name="mybatis_day01_4" />
+        <module name="mybatis_day02_1" />
+        <module name="mybatis_day02_1 (1)" />
+        <module name="mybatis_day02_2" />
+        <module name="mybatis_day03_1_sql" />
+        <module name="mybatis_day03_1_sql (1)" />
+        <module name="mybatis_day03_2_OneToOne" />
+        <module name="mybatis_day03_2_OneToOne (1)" />
+        <module name="mybatis_day03_3_user_OneToMany" />
+        <module name="mybatis_day03_4_role_OneToMany" />
+        <module name="mybatis_day04_1_Lazy_OneToOne" />
+        <module name="mybatis_day04_2_Lazy_OneToMany" />
+        <module name="mybatis_day04_3_cache" />
+        <module name="mybatis_day04_4_annotation_crud" />
+        <module name="mybatis_day04_4_annotation_crud (1)" />
+        <module name="mybatis_day04_5_annotation_OneToOne" />
+        <module name="mybatis_day04_5_annotation_OneToOne (1)" />
+        <module name="mybatis_day04_6_annotation_OneToMany" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heima65_mybatis_day1_03_custom" target="1.5" />
+      <module name="mybatis_day01" target="1.7" />
+      <module name="mybatis_day01_2" target="1.5" />
+      <module name="mybatis_day01_2 (1)" target="1.5" />
+      <module name="mybatis_day01_3" target="1.5" />
+      <module name="mybatis_day01_4" target="1.5" />
+      <module name="mybatis_day02_1" target="1.7" />
+      <module name="mybatis_day02_1 (1)" target="1.7" />
+      <module name="mybatis_day02_2" target="1.7" />
+      <module name="mybatis_day03_1_sql" target="1.7" />
+      <module name="mybatis_day03_1_sql (1)" target="1.7" />
+      <module name="mybatis_day03_2_OneToOne" target="1.7" />
+      <module name="mybatis_day03_2_OneToOne (1)" target="1.7" />
+      <module name="mybatis_day03_3_user_OneToMany" target="1.7" />
+      <module name="mybatis_day03_4_role_OneToMany" target="1.7" />
+      <module name="mybatis_day04_1_Lazy_OneToOne" target="1.7" />
+      <module name="mybatis_day04_2_Lazy_OneToMany" target="1.7" />
+      <module name="mybatis_day04_3_cache" target="1.7" />
+      <module name="mybatis_day04_4_annotation_crud" target="1.7" />
+      <module name="mybatis_day04_4_annotation_crud (1)" target="1.7" />
+      <module name="mybatis_day04_5_annotation_OneToOne" target="1.7" />
+      <module name="mybatis_day04_5_annotation_OneToOne (1)" target="1.7" />
+      <module name="mybatis_day04_6_annotation_OneToMany" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

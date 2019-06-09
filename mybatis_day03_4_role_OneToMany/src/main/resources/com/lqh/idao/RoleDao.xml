@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lqh.idao.RoleDao">
+    <select id="findAllRoles" resultMap="roleMap">
+       SELECT r.id rid,r.role_name,r.role_desc,u.* FROM role r LEFT OUTER JOIN user_role ur ON (r.id=ur.rid) LEFT OUTER JOIN USER u ON (u.`id`=ur.uid)
+    </select>
+
+    <resultMap id="roleMap" type="role">
+        <id property="id" column="rid"></id>
+        <result property="role_name" column="role_name"></result>
+        <result property="role_desc" column="role_desc"></result>
+
+        <collection property="users" javaType="List" ofType="User">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="address" column="address"></result>
+            <result property="sex" column="sex"></result>
+            <result property="birthday" column="birthday"></result>
+        </collection>
+    </resultMap>
+</mapper>   

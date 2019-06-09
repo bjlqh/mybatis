@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lqh.AppTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\就业班_我的练习\Framewoke\mybatis_day01\target\test-classes;D:\就业班_我的练习\Framewoke\mybatis_day01\target\classes;D:\Develop\WareHouse\LocalRepository\Repository\junit\junit\4.11\junit-4.11.jar;D:\Develop\WareHouse\LocalRepository\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Develop\WareHouse\LocalRepository\Repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Develop\WareHouse\LocalRepository\Repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\Develop\WareHouse\LocalRepository\Repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\Develop\WareHouse\LocalRepository\Repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;D:\Develop\WareHouse\LocalRepository\Repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Develop\WareHouse\LocalRepository\Repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\Develop\jdk-9.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire10118525363937039456\surefirebooter10796415170853181158.jar C:\Users\Administrator\AppData\Local\Temp\surefire10118525363937039456 2018-09-20T17-30-34_437-jvmRun1 surefire3331524403775751742tmp surefire_07804644692924469367tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\就业班_我的练习\Framewoke\mybatis_day01\target\test-classes;D:\就业班_我的练习\Framewoke\mybatis_day01\target\classes;D:\Develop\WareHouse\LocalRepository\Repository\junit\junit\4.11\junit-4.11.jar;D:\Develop\WareHouse\LocalRepository\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Develop\WareHouse\LocalRepository\Repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Develop\WareHouse\LocalRepository\Repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\Develop\WareHouse\LocalRepository\Repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\Develop\WareHouse\LocalRepository\Repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;D:\Develop\WareHouse\LocalRepository\Repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Develop\WareHouse\LocalRepository\Repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Develop\jdk-9.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\就业班_我的练习\Framewoke\mybatis_day01"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire10118525363937039456\surefirebooter10796415170853181158.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Develop\WareHouse\LocalRepository\Repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2017.3.2"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="D:\就业班_我的练习\Framewoke\mybatis_day01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\Develop\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Develop\apache-maven-3.3.9\bin;D:\Develop\jdk-9.0.4\bin;%QQ_HOME%\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\应用软件\3D max\Backburner\;C:\Program Files (x86)\Common Files\Autodesk Shared\;D:\应用软件\3d 相关\NuGraf 64;C:\Program Files\Common Files\Autodesk Shared\;D:\数据库\MySQL\MySQL Server 5.5\bin;D:\数据库\MySQL\bin;D:\数据库\setup path\bin;D:\数据库\mysql server\bin;D:\MySql\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\Develop\WareHouse\LocalRepository\Repository"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.lqh.AppTest" time="0"/>
+</testsuite>

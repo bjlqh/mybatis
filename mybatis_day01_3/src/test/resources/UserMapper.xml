@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE mapper SYSTEM "mybatis-3-mapper.dtd">-->
+<!--namespace:名称空间
+		区分模块
+	唯一：namespace.id
+ -->  
+<mapper namespace="user">
+<!-- select 查询 -->   
+	<!--<select id="getAll" resultType="com.lqh.client.User">
+		select * from user
+	</select>-->
+</mapper>
+
+
+

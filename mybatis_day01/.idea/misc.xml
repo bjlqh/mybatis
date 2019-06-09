@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day01_2/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day01_3/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day01_4/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day02_1/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day02_2/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day03_1_sql/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day03_2_OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day03_3_user_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day03_4_role_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_1_Lazy_OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_2_Lazy_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_3_cache/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_4_annotation_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_5_annotation_OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatis_day04_6_annotation_OneToMany/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="D:/就业班/Framework/mybatis/mybatis-01/03-资料/02-dtd/mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="D:/就业班/Framework/mybatis/mybatis-01/03-资料/02-dtd/mybatis-3-mapper.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

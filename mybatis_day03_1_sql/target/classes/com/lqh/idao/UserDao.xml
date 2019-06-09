@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间
+		区分模块
+	唯一：namespace.id
+ -->
+<mapper namespace="com.lqh.idao.UserDao">
+    <!--公共的sql片段-->
+    <sql id="userSql">
+        select * from user
+    </sql>
+    <select id="findByUser" resultType="user" parameterType="user">
+        <include refid="userSql"></include>
+        <where>
+            <if test="username != null and username != '' ">
+                and username=#{username}
+            </if>
+            <if test="sex != null and sex != '' ">
+                and sex = #{sex}
+            </if>
+            <if test="address !=null and address !=''">
+                and address =#{address}
+            </if>
+        </where>
+    </select>
+
+    <select id="findUserByArrayIds" parameterType="_int[]" resultType="user">
+        SELECT * FROM USER WHERE id IN
+        <foreach collection="array" item="ids" open="(" close=")" separator=",">
+            #{ids}
+        </foreach>
+    </select>
+
+    <select id="findUserByListIds" parameterType="list" resultType="user">
+        SELECT * FROM USER
+        <foreach collection="list" item="lis" open="WHERE id IN(" close=")" separator=",">
+            #{lis}
+        </foreach>
+    </select>
+
+    <select id="findUserByVo" parameterType="queryVo" resultType="user">
+        SELECT * FROM USER
+        <foreach collection="list" item="lis" open="WHERE id IN(" close=")" separator=",">
+            #{lis}
+        </foreach>
+    </select>
+
+    <insert id="save" parameterType="user">
+        insert into user VALUES (#{id},#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+
+</mapper>   
